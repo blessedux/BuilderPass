@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/sidebar"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
-import { Home, Search, Users, Trophy, User, Rocket, MessageSquare, Settings, Zap, Target, Calendar } from "lucide-react"
+import { Home, Search, Users, Trophy, User, Rocket, MessageSquare, Settings, Zap, Target, Calendar, Award } from "lucide-react"
 
 const menuItems = [
   {
@@ -29,6 +29,11 @@ const menuItems = [
     title: "My Profile",
     url: "/dashboard/profile",
     icon: User,
+  },
+  {
+    title: "3D Credential",
+    url: "/dashboard/profile/credential",
+    icon: Award,
   },
   {
     title: "Team Finder",
@@ -75,7 +80,7 @@ export function AppSidebar() {
             <Zap className="w-5 h-5 text-white" />
           </div>
           <span className="text-lg font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-            BuilderHub
+            Builder Pass
           </span>
         </div>
       </SidebarHeader>

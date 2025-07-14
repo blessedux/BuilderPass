@@ -6,7 +6,6 @@ export default function LandingPage() {
       <Header />
       <Hero />
       <Features />
-      <CTA />
       <Footer />
     </div>
   )

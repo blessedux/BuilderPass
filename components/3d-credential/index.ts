@@ -1,0 +1,1 @@
+export { CredentialBadge } from './credential-badge' 
